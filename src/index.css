@@ -32,6 +32,11 @@ body {
   margin-right: 1.5rem;
 }
 
+.nav {
+  text-decoration: none;
+  display: flex;
+}
+
 h1 {
   text-align: center;
   text-transform: uppercase;
@@ -39,6 +44,7 @@ h1 {
   text-shadow: 0 0 4px rgba(35, 34, 34, 0.4);
   font-size: 2.5rem;
   margin: 0;
+  margin-top: 1rem;
 }
 
 #main-header button {

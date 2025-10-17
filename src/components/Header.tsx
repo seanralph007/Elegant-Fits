@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 import Cart from "./Cart.tsx";
 import { useAppSelector } from "../store/hooks.ts";
 
@@ -23,8 +23,10 @@ export default function Header() {
       {cartIsVisible && <Cart onClose={handleCloseCartClick} />}
       <header id="main-header">
         <div id="main-title">
-          <img src="logo.png" alt="Elegant model" />
-          <h1>Elegant Fits</h1>
+          <Link to="/" className="nav">
+            <img src="logo.png" alt="Elegant model" />
+            <h1>Elegant Fits</h1>
+          </Link>
         </div>
         <p>
           <button onClick={handleOpenCartClick}>Cart ({cartQuantity})</button>

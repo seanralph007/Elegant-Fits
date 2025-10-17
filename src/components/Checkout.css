@@ -8,6 +8,7 @@
   background-color: #fff;
   font-family: "Inter", sans-serif;
   color: #222;
+  overflow-x: hidden;
 }
 
 /* LEFT SIDE */
@@ -128,7 +129,7 @@
 
 .pay-btn {
   width: 100%;
-  background-color: #0070f3;
+  background: linear-gradient(#31220b, #382e1b);
   color: white;
   border: none;
   padding: 0.9rem;
@@ -139,7 +140,7 @@
 }
 
 .pay-btn:hover {
-  background-color: #0059c1;
+  background: #31220b;
 }
 
 /* 📱 RESPONSIVE */
