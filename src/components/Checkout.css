@@ -177,6 +177,10 @@
     margin: 0.5rem;
     width: 95%;
   }
+
+  .price {
+    margin-left: 2.5rem;
+  }
 }
 
 @media (max-width: 600px) {
