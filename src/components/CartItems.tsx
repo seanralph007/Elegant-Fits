@@ -1,5 +1,4 @@
 import { useAppDispatch, useAppSelector } from "../store/hooks.ts";
-// import notifySuccess from "../Utils/Notifications.js";
 import {
   type CartItem,
   addToCart,
@@ -19,7 +18,6 @@ export default function CartItems() {
 
   function handleAddToCart(item: CartItem) {
     dispatch(addToCart(item));
-    // notifySuccess("Deleted!", "Your ride was successfully deleted.");
   }
 
   function handleRemoveFromCart(id: string) {
@@ -39,6 +37,7 @@ export default function CartItems() {
               <li key={item.id}>
                 <div>
                   <span>{item.title}</span>
+                  <br />
                   <span> ({formattedPrice})</span>
                 </div>
                 <div className="cart-item-actions">
