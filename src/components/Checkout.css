@@ -16,7 +16,7 @@
   flex: 1;
   padding: 3rem 4rem;
   border-right: 1px solid #eee;
-  min-width: 380px;
+  /* min-width: 380px; */
   background: #fafafa;
 }
 
@@ -164,6 +164,8 @@
   .checkout-summary {
     border-right: none;
     border-bottom: 1px solid #eee;
+    margin: 0.5rem;
+    width: 95%;
   }
 
   .checkout-total {
