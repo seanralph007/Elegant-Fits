@@ -225,6 +225,7 @@ h1 {
 } */
 
 .btns,
+.clear-cart,
 .btn {
   background: #271e07;
   border: none;
@@ -237,6 +238,11 @@ h1 {
 
 .btn {
   background: #0f0b01;
+}
+
+.clear-cart {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.5rem;
 }
 
 /* #cart-actions button {
@@ -349,5 +355,4 @@ h1 {
     padding: 0.5rem 0.5rem;
     font-size: 0.9rem;
   }
-
 }

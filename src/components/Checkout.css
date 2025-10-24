@@ -84,7 +84,7 @@
 .checkout-form {
   flex: 1;
   padding: 3rem 4rem;
-  min-width: 360px;
+  /* min-width: 360px; */
   background: #fff;
 }
 
@@ -172,13 +172,15 @@
 
   .checkout-form {
     padding: 2rem;
+    margin: 0.5rem;
+    width: 95%;
   }
 }
 
 @media (max-width: 600px) {
   .checkout-summary,
   .checkout-form {
-    padding: 1.2rem;
+    padding: 1.3rem;
   }
 
   .checkout-header h2 {

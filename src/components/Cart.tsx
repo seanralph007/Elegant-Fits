@@ -33,7 +33,7 @@ export default function Cart({ onClose }: CartProps) {
         <p id="cart-actions">
           {cartItems.length > 0 && (
             <>
-              <button onClick={handleClear} className="btns">
+              <button onClick={handleClear} className="clear-cart">
                 Clear Cart
               </button>
               <button onClick={handleCheckout} className="btn">
